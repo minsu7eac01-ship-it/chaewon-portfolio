@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>김채원 | Portfolio</title>
+  <meta name="description" content="회계학을 공부하며 세계와 소통하는 김채원의 포트폴리오">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- 저장된 테마를 화면이 그려지기 전에 적용 (깜빡임 방지) -->
+  <script>
+    document.documentElement.classList.add("js");
+    try {
+      var saved = localStorage.getItem("theme");
+      if (saved) document.documentElement.setAttribute("data-theme", saved);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand">KIM CHAEWON</a>
+      <nav id="nav">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#global">Global</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-btn" id="theme-toggle" aria-label="화면 색상 반전">
+        <span class="theme-dot"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ===== 히어로 ===== -->
+    <section class="hero">
+      <div class="container">
+        <p class="label">Portfolio — 2026</p>
+        <h1 class="hero-name">김채원</h1>
+        <p class="hero-title">
+          숫자로 정확하게,<br>
+          사람에게 따뜻하게 전하는<br>
+          회계학도입니다.
+        </p>
+        <div class="hero-meta">
+          <span>순천향대학교 회계학과</span>
+          <span>Accounting</span>
+          <span>Communication</span>
+          <span>Global</span>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="아래로 스크롤">Scroll ↓</a>
+    </section>
+
+    <!-- ===== 01 소개 ===== -->
+    <section id="about" class="section reveal">
+      <div class="container section-grid">
+        <div class="section-head">
+          <span class="section-num">01</span>
+          <h2>About</h2>
+        </div>
+        <div class="section-body">
+          <p class="lead">
+            순천향대학교에서 회계학을 공부하고 있습니다.
+            두 학과 학생회의 홍보부장으로 학우들에게 소식을 전해 왔고,
+            필리핀 어학연수와 우즈베키스탄 해외봉사를 통해 낯선 환경에서도
+            먼저 다가가 소통하는 법을 배웠습니다.
+          </p>
+          <ul class="keywords">
+            <li><strong>정확함</strong><span>회계 원칙에 기반한 꼼꼼한 사고</span></li>
+            <li><strong>전달력</strong><span>정보를 쉽고 매력적으로 알리는 홍보 경험</span></li>
+            <li><strong>개방성</strong><span>다른 문화 속에서 함께 일해 본 경험</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 02 학력 ===== -->
+    <section id="education" class="section reveal">
+      <div class="container section-grid">
+        <div class="section-head">
+          <span class="section-num">02</span>
+          <h2>Education</h2>
+        </div>
+        <div class="section-body">
+          <ol class="list">
+            <li>
+              <span class="list-date">재학 중</span>
+              <div>
+                <h3>순천향대학교</h3>
+                <p>회계학과</p>
+              </div>
+            </li>
+            <li>
+              <span class="list-date">졸업</span>
+              <div>
+                <h3>북일여자고등학교</h3>
+                <p>졸업</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 03 활동 ===== -->
+    <section id="experience" class="section reveal">
+      <div class="container section-grid">
+        <div class="section-head">
+          <span class="section-num">03</span>
+          <h2>Experience</h2>
+        </div>
+        <div class="section-body">
+          <div class="cards">
+            <article class="card">
+              <p class="card-tag">Student Council</p>
+              <h3>회계학과 학생회<br>홍보부장</h3>
+              <p>순천향대학교 회계학과 학생회에서 홍보부를 이끌며 학과 행사와 소식을 학우들에게 알렸습니다.</p>
+            </article>
+            <article class="card">
+              <p class="card-tag">Student Council</p>
+              <h3>국제통상학과 학생회<br>홍보부장</h3>
+              <p>순천향대학교 국제통상학과 학생회에서 홍보부장으로 활동하며 학과 구성원과의 소통을 담당했습니다.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 04 글로벌 ===== -->
+    <section id="global" class="section reveal">
+      <div class="container section-grid">
+        <div class="section-head">
+          <span class="section-num">04</span>
+          <h2>Global</h2>
+        </div>
+        <div class="section-body">
+          <ol class="list">
+            <li>
+              <span class="list-date">2025</span>
+              <div>
+                <h3>우즈베키스탄 해외봉사</h3>
+                <p>현지에서 봉사활동에 참여하며 다른 문화와 언어 속에서 함께 일하는 경험을 쌓았습니다.</p>
+              </div>
+            </li>
+            <li>
+              <span class="list-date">2024</span>
+              <div>
+                <h3>필리핀 어학연수</h3>
+                <p>영어 실력을 키우고, 다양한 국적의 사람들과 직접 소통하며 자신감을 얻었습니다.</p>
+              </div>
+            </li>
+          </ol>
+
+          <div class="scores">
+            <div class="score">
+              <p class="score-label">TOEIC</p>
+              <p class="score-value"><span data-count="800">800</span></p>
+            </div>
+            <div class="score">
+              <p class="score-label">TOEIC Speaking</p>
+              <p class="score-value">AL</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 05 연락처 ===== -->
+    <section id="contact" class="section contact reveal">
+      <div class="container">
+        <span class="section-num">05</span>
+        <h2 class="contact-title">Let's talk.</h2>
+        <!-- TODO: 실제 이메일 주소로 바꿔 주세요 -->
+        <a href="mailto:your@email.com" class="contact-mail">your@email.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2026 Kim Chaewon</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
